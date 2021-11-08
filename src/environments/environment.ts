@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyAi2LRQ5gMRYmVmiZLdKAKCkuddSbdvrR0",
-  authDomain: "simple-crm-8b698.firebaseapp.com",
-  projectId: "simple-crm-8b698",
-  storageBucket: "simple-crm-8b698.appspot.com",
-  messagingSenderId: "194419403262",
-  appId: "1:194419403262:web:3a96c85bcaa352b8e5f8af"
-  }
+    apiKey: 'AIzaSyCTpcatCjx2UggNZz9yDuJG8upNLcjm9OU',
+    authDomain: 'simple-crm-34f01.firebaseapp.com',
+    projectId: 'simple-crm-34f01',
+    storageBucket: 'simple-crm-34f01.appspot.com',
+    messagingSenderId: '442762392572',
+    appId: '1:442762392572:web:21aed4795e96cfbea17879',
+  },
 };
 
 /*
