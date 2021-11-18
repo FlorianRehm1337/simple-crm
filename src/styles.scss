@@ -1,25 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  color: white;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
-.mr-16{
+.mr-16 {
   margin-right: 16px;
 }
 
-.mt-32{
+.mt-32 {
   margin-top: 32px;
 }
 
-.full-width{
+.full-width {
   width: 100%;
 }
 
-.dialog-container{
+.dialog-container {
   position: relative;
 
-
-  mat-progress-bar{
+  mat-progress-bar {
     position: absolute;
     left: -24px;
     right: -24px;
@@ -28,3 +34,31 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   }
 }
 
+.mat-drawer-container {
+  background-color: #202024;
+  color: white;
+}
+
+.mat-drawer {
+  background-color: #29292b;
+  color: white;
+}
+
+.mat-card{
+  background-color: #29292b;
+  color: white;
+}
+
+.mat-dialog-container{
+  background-color: #29292b !important;
+  color: white !important;
+
+  label{
+    color: dimgrey;
+
+  }
+}
+
+.mat-calender{
+  background-color: lightgrey;
+}

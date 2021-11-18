@@ -29,13 +29,16 @@ export class UserDetailComponent implements OnInit {
   }
 
   getUser() {
-    this.firestore
+    if(this.userId){
+      this.firestore
       .collection('users')
       .doc(this.userId)
       .valueChanges()
       .subscribe((user: any) => {
         this.user = new User(user);
       });
+    }
+
   }
 
   editMenu() {
